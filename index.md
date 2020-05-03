@@ -1,4 +1,4 @@
-# 欢迎来到上海地铁百科<sup>Community Preview</sup>
+# 欢迎来到上海地铁百科<sup>Community Preview 1</sup>
 
 ## 自由但不过头的百科
 
