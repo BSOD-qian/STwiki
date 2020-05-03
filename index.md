@@ -1,4 +1,4 @@
-# 欢迎来到上海地铁百科<sup>beta</sup>
+# 欢迎来到上海地铁百科<sup>Community Preview</sup>
 
 ## 自由但不过头的百科
 
@@ -6,4 +6,5 @@
 - [线路详情](line.md)
 - [致谢](thanks.md)
 - [关于](about.md)
+- [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
 
