@@ -1,4 +1,4 @@
-<marquee behavior="scroll" direction="left">上海轨道交通启用乘车扫码登记措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流不拥挤，谢谢配合！</marquee>
+<marquee behavior="scroll" direction="left" bgcolor="#009688">上海轨道交通启用乘车扫码登记措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流不拥挤，谢谢配合！</marquee>
 
 # 欢迎来到上海地铁百科<sup>Community Preview 1</sup>
 
