@@ -5,4 +5,3 @@
 [致谢](thanks.md)
 [关于](about.md)
 [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
-[帮助<sup>Insider Preview</sup>（需密码）](https://stwiki-021.github.io/devhelp/)
