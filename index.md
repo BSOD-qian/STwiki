@@ -2,8 +2,6 @@
 
 # 欢迎来到上海地铁百科<sup>Community Preview 1</sup>
 
--{自由但不过头的百科}-
-
 ## 页面导航
 
 - [关于~~盘通~~上海地铁](shanghaimetro.md)
@@ -11,7 +9,3 @@
 - [致谢](thanks.md)
 - [关于](about.md)
 - [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
-
-## 编写进度
-
-<progress value="2" max="23"></progress>
