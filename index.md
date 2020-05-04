@@ -12,4 +12,6 @@
 - [关于](about.md)
 - [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
 
-## <progress value="1" max="15"></progress>
+## 编写进度
+
+<progress value="2" max="23"></progress>
