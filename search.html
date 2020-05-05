@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>地铁计算器（Online）</title>
+<body >
+<marquee behavior="scroll" direction="left">上海轨道交通启用乘车扫码登记措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流不拥挤，谢谢配合！<br/>Shanghai Metro has adopted the code scanning registration measures for vehicles. The mobile phone scans the QR code of the window to fill in the mobile phone number, and the code needs to be scanned again when changing the car. Wear masks throughout, the crowd is not crowded, thank you for your cooperation!</marquee>
+<h1>地铁计算器</h1>
+<p>格式<br/>线路:车号:车体号</p>
+<input id=mykeyword type=search onkeyup=findone()>
+<hr/>
+<p>下面是结果</p>
+<div id=myfind></div>
+<script>
+var myCars=[
+'JY:JY0101:JY010011<br/>',
+'JY:JY0101:JY010022<br/>',
+'JY:JY0101:JY010032<br/>',
+'JY:JY0101:JY010041<br/>',
+'JY:JY0102:JY010051<br/>',
+'JY:JY0102:JY010062<br/>',
+'JY:JY0102:JY010072<br/>',
+'JY:JY0102:JY010081<br/>',
+'JY:JY0103:JY010091<br/>',
+'JY:JY0103:JY010102<br/>',
+'JY:JY0103:JY010112<br/>',
+'JY:JY0103:JY010121<br/>',
+'JY:JY0104:JY010131<br/>',
+'JY:JY0104:JY010142<br/>',
+'JY:JY0104:JY010152<br/>',
+'JY:JY0104:JY010161<br/>',
+'JY:JY0105:JY010171<br/>',
+'JY:JY0105:JY010182<br/>',
+'JY:JY0105:JY010192<br/>',
+'JY:JY0105:JY010201<br/>',
+'JY:JY0106:JY010211<br/>',
+'JY:JY0106:JY010222<br/>',
+'JY:JY0106:JY010232<br/>',
+'JY:JY0106:JY010241<br/>',
+'JY:JY0107:JY010251<br/>',
+'JY:JY0107:JY010262<br/>',
+'JY:JY0107:JY010272<br/>',
+'JY:JY0107:JY010281<br/>',
+'T01:T0101:T010011<br/>',
+'T01:T0101:T010022<br/>',
+'T01:T0101:T010032<br/>',
+'T01:T0101:T010041<br/>',
+'T01:T0102:T010051<br/>',
+'T01:T0102:T010062<br/>',
+'T01:T0102:T010072<br/>',
+'T01:T0102:T010081<br/>',
+'T01:T0103:T010091<br/>',
+'T01:T0103:T010102<br/>',
+'T01:T0103:T010112<br/>',
+'T01:T0103:T010121<br/>',
+'T01:T0104:T010131<br/>',
+'T01:T0104:T010142<br/>',
+'T01:T0104:T010152<br/>',
+'T01:T0104:T010161<br/>',
+'T01:T0105:T010171<br/>',
+'T01:T0105:T010182<br/>',
+'T01:T0105:T010192<br/>',
+'T01:T0105:T010201<br/>',
+'T01:T0106:T010211<br/>',
+'T01:T0106:T010222<br/>',
+'T01:T0106:T010232<br/>',
+'T01:T0106:T010241<br/>',
+'T01:T0107:T010251<br/>',
+'T01:T0107:T010262<br/>',
+'T01:T0107:T010272<br/>',
+'T01:T0107:T010281<br/>',
+'T01:T0108:T010291<br/>',
+'T01:T0108:T010302<br/>',
+'T01:T0108:T010312<br/>',
+'T01:T0108:T010321<br/>',
+'T01:T0109:T010331<br/>',
+'T01:T0109:T010342<br/>',
+'T01:T0109:T010352<br/>',
+'T01:T0109:T010361<br/>',
+'T01:T0110:T010371<br/>',
+'T01:T0110:T010382<br/>',
+'T01:T0110:T010392<br/>',
+'T01:T0110:T010401<br/>',
+'T01:T0111:T010411<br/>',
+'T01:T0111:T010422<br/>',
+'T01:T0111:T010432<br/>',
+'T01:T0111:T010441<br/>',
+];
+function findone()
+{
+mykey=document.getElementById("mykeyword").value;
+myfind=document.getElementById("myfind").value;
+myfind="";
+for (i in myCars)
+{
+if(myCars[i].search(mykey)>=0){myfind=myfind+myCars[i]+""}
+}
+document.getElementById("myfind").innerHTML=myfind;
+}
+</script>
