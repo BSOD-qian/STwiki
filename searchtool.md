@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>地铁计算器（Online）</title>
 <body >
