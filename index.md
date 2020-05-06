@@ -9,3 +9,5 @@
 - [关于](about.md)
 - [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
 - [地铁计算器（目前仅支持浦东机场捷运、浦江线、17号线）](searchtool.md)
+
+![pic]([https://api.berryapi.net/?service=App.Bing.Images&day=-0](https://www.lylares.com/go?url=https://api.berryapi.net/?service=App.Bing.Images&day=0))
