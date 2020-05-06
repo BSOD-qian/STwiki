@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>地铁计算器（Online）</title>
 <body >
-<marquee behavior="scroll" direction="left">上海轨道交通启用乘车扫码登记措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流不拥挤，谢谢配合！<br/>Shanghai Metro has adopted the code scanning registration measures for vehicles. The mobile phone scans the QR code of the window to fill in the mobile phone number, and the code needs to be scanned again when changing the car. Wear masks throughout, the crowd is not crowded, thank you for your cooperation!</marquee>
+<marquee behavior="scroll" direction="left">上海轨道交通启用乘车扫码登记制度措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流不拥挤，谢谢配合！<br/>Shanghai Metro has implemented the system of scanning code registration system. The mobile phone scans the QR code of the car window and fills in the mobile phone number. If you change the car, you need to scan the code again. Wear masks throughout, the crowd is not crowded, thank you for your cooperation!</marquee>
 <h1>地铁计算器</h1>
 <p>格式<br/>线路:车号:车体号</p>
 <input id=mykeyword type=search onkeyup=findone()>
@@ -263,3 +263,4 @@ if(myCars[i].search(mykey)>=0){myfind=myfind+myCars[i]+""}
 document.getElementById("myfind").innerHTML=myfind;
 }
 </script>
+
