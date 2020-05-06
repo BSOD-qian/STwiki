@@ -8,4 +8,4 @@
 - [致谢](thanks.md)
 - [关于](about.md)
 - [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
-- [地铁计算器<sup>html</sup>（目前仅支持浦东机场捷运、浦江线、17号线）](https://stwiki-021.github.io/STwiki/search.html)
+- [地铁计算器（目前仅支持浦东机场捷运、浦江线、17号线）](searchtool.md)
