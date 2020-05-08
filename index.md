@@ -1,4 +1,4 @@
-<marquee behavior="scroll" direction="left">上海轨道交通启用乘车扫码登记制度措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流不拥挤，谢谢配合！<br/>Shanghai Metro has implemented the system of scanning code registration system. The mobile phone scans the QR code of the car window and fills in the mobile phone number. If you change the car, you need to scan the code again. Wear masks throughout, the crowd is not crowded, thank you for your cooperation!</marquee>
+<marquee behavior="scroll" direction="left">上海轨道交通启用乘车扫码登记措施，手机扫描车窗二维码填写手机号，换车需再次扫码。全程戴口罩，人流避拥挤，谢谢配合！<br/>Shanghai Metro has implemented the code scanning registration measures for vehicles. The mobile phone scans the QR code of the car window and fills in the mobile phone number. It is necessary to scan the code again when changing cars. Wear masks throughout, to avoid crowding, thank you for your cooperation!</marquee>
 # 欢迎来到上海地铁百科<sup>Developer Preview </sup>
 
 ## 页面导航
