@@ -6,7 +6,7 @@
 - [关于上海地铁](shanghaimetro.md)
 - [线路详情](line.md)
 - [致谢](thanks.md)
-- [关于](about.md)
+- [关于](https://stwiki-021.github.io/thanks.html)
 - [帮助<sup>Preview</sup>（暂不开放）](https://STwiki-021.github.io/help)
 - [地铁计算器（目前仅支持浦东机场捷运、浦江线、17号线、1601~1603）](searchtool.md)
 
